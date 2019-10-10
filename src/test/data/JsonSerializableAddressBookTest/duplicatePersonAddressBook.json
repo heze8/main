@@ -3,14 +3,20 @@
     "name": "Alice Pauline",
     "phone": "94351253",
     "email": "alice@example.com",
+<<<<<<< HEAD
     "address": "123, Jurong West Ave 6, #08-111",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged": [ "friends" ]
   }, {
     "name": "Alice Pauline",
     "phone": "94351253",
     "email": "pauline@example.com",
+<<<<<<< HEAD
     "remark": "",
     "address": "4th street"
+=======
+>>>>>>> tutorial-removing-field
   } ]
 }

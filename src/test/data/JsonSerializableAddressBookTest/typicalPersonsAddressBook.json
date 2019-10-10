@@ -4,50 +4,71 @@
     "name" : "Alice Pauline",
     "phone" : "94351253",
     "email" : "alice@example.com",
+<<<<<<< HEAD
     "address" : "123, Jurong West Ave 6, #08-111",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged" : [ "friends" ]
   }, {
     "name" : "Benson Meier",
     "phone" : "98765432",
     "email" : "johnd@example.com",
+<<<<<<< HEAD
     "address" : "311, Clementi Ave 2, #02-25",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged" : [ "owesMoney", "friends" ]
   }, {
     "name" : "Carl Kurz",
     "phone" : "95352563",
     "email" : "heinz@example.com",
+<<<<<<< HEAD
     "address" : "wall street",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged" : [ ]
   }, {
     "name" : "Daniel Meier",
     "phone" : "87652533",
     "email" : "cornelia@example.com",
+<<<<<<< HEAD
     "address" : "10th street",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged" : [ "friends" ]
   }, {
     "name" : "Elle Meyer",
     "phone" : "9482224",
     "email" : "werner@example.com",
+<<<<<<< HEAD
     "address" : "michegan ave",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged" : [ ]
   }, {
     "name" : "Fiona Kunz",
     "phone" : "9482427",
     "email" : "lydia@example.com",
+<<<<<<< HEAD
     "address" : "little tokyo",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged" : [ ]
   }, {
     "name" : "George Best",
     "phone" : "9482442",
     "email" : "anna@example.com",
+<<<<<<< HEAD
     "address" : "4th street",
     "remark": "",
+=======
+>>>>>>> tutorial-removing-field
     "tagged" : [ ]
   } ]
 }

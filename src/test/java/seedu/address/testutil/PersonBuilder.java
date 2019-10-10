@@ -3,7 +3,6 @@ package seedu.address.testutil;
 import java.util.HashSet;
 import java.util.Set;
 
-import seedu.address.model.person.Address;
 import seedu.address.model.person.Email;
 import seedu.address.model.person.Name;
 import seedu.address.model.person.Person;
@@ -26,16 +25,22 @@ public class PersonBuilder {
     private Name name;
     private Phone phone;
     private Email email;
+<<<<<<< HEAD
     private Address address;
     private Remark remark;
+=======
+>>>>>>> tutorial-removing-field
     private Set<Tag> tags;
 
     public PersonBuilder() {
         name = new Name(DEFAULT_NAME);
         phone = new Phone(DEFAULT_PHONE);
         email = new Email(DEFAULT_EMAIL);
+<<<<<<< HEAD
         address = new Address(DEFAULT_ADDRESS);
         remark = new Remark((DEFAULT_REMARK));
+=======
+>>>>>>> tutorial-removing-field
         tags = new HashSet<>();
     }
 
@@ -46,8 +51,11 @@ public class PersonBuilder {
         name = personToCopy.getName();
         phone = personToCopy.getPhone();
         email = personToCopy.getEmail();
+<<<<<<< HEAD
         address = personToCopy.getAddress();
         remark = personToCopy.getRemark();
+=======
+>>>>>>> tutorial-removing-field
         tags = new HashSet<>(personToCopy.getTags());
     }
 
@@ -67,13 +75,6 @@ public class PersonBuilder {
         return this;
     }
 
-    /**
-     * Sets the {@code Address} of the {@code Person} that we are building.
-     */
-    public PersonBuilder withAddress(String address) {
-        this.address = new Address(address);
-        return this;
-    }
 
     /**
      * Sets the {@code Phone} of the {@code Person} that we are building.
@@ -92,7 +93,11 @@ public class PersonBuilder {
     }
 
     public Person build() {
+<<<<<<< HEAD
         return new Person(name, phone, email, address, remark, tags);
+=======
+        return new Person(name, phone, email, tags);
+>>>>>>> tutorial-removing-field
     }
 
     public PersonBuilder withRemark(String remark) {
